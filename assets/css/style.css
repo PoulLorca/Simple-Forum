@@ -1,0 +1,112 @@
+/* Color Theme Swatches in Hex */
+.fotografia-de-bellas-artes,-estilo-ciber-punk-de-la-ciudad-de-Nueva-York-por-la-noche,-en-tonos-verdosos-1-hex { color: #012840; }
+.fotografia-de-bellas-artes,-estilo-ciber-punk-de-la-ciudad-de-Nueva-York-por-la-noche,-en-tonos-verdosos-2-hex { color: #048ABF; }
+.fotografia-de-bellas-artes,-estilo-ciber-punk-de-la-ciudad-de-Nueva-York-por-la-noche,-en-tonos-verdosos-3-hex { color: #025959; }
+.fotografia-de-bellas-artes,-estilo-ciber-punk-de-la-ciudad-de-Nueva-York-por-la-noche,-en-tonos-verdosos-4-hex { color: #025939; }
+.fotografia-de-bellas-artes,-estilo-ciber-punk-de-la-ciudad-de-Nueva-York-por-la-noche,-en-tonos-verdosos-5-hex { color: #038C4C; }
+
+/*Fonts*/
+@font-face {
+    font-family: "Inconsolata";
+    src: url(/assets/css/fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf)
+}
+
+@font-face {
+    font-family: "Karla";
+    src: url(/assets/css/fonts/Karla/Karla-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Rajdhani";
+    src: url(/assets/css/fonts/Rajdhani/Rajdhani-Regular.ttf);
+}
+
+/*General*/
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{        
+    background-image: url(/assets/img/pattern.png);
+}
+
+header{
+    min-width: 1024px;
+    width: 100%;
+    height: 250px;
+    margin: 0px auto;
+}
+
+header a{
+    text-decoration: none;
+}
+
+
+header .logo{
+    width: 770px;
+    margin: 0px auto;
+    padding-top: 20px;      
+    filter: saturate(3);  
+}
+
+header .logo img{
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    width: 140px;    
+    
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;    
+    
+}
+
+header h1 a{
+    color:#038C4C;
+    font-family: Karla;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 10px;    
+    text-shadow: 0px 2px 4px;
+    transition: all 300ms;    
+}
+
+header h1 :hover{    
+    text-shadow: 0px 2px 4px, 0px 0px 8px;
+}
+
+/*Navbar*/
+nav{
+    width: 100%;       
+    height: 40px; 
+    background-color: #012840;
+    color:#038C4C;
+    font-family: Rajdhani;
+    font-size: 14px;   
+    box-shadow: 0px 0px 2px;     
+}
+
+nav  ul{
+    list-style: none;    
+    text-decoration: none;
+    margin: 0px auto;
+    width: 1130px;        
+}
+
+nav > ul > li {
+    line-height: 40px;    
+    float: left;
+    border-right: 1px solid #048ABF;    
+}
+
+nav > ul > li  a{    
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#038C4C;
+    text-decoration: none;
+}
