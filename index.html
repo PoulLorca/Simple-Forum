@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,13 +14,14 @@
 
     <title>Fake Hackers forum</title>
 </head>
+
 <body>
 
     <!-- Header -->
     <header>
         <div class="logo">
             <img src="assets/img/logo.png" alt="logo">
-            
+
             <h1>
                 <a href="index.html">
                     Hacking Forum
@@ -35,8 +37,35 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="#">Content</a></li>
             <li><a href="#">Requirements</a></li>
-            <li><a href="#">Languages</a></li>
-            <li><a href="#">Framworks</a></li>
+            <li>
+                <a href="#">Languages</a>
+                <ul>
+                    <li>
+                        <a href="#">PHP</a>
+                    </li>
+                    <li>
+                        <a href="#">JS</a>
+                    </li>
+                    <li>
+                        <a href="#">Go</a>
+                    </li>
+                    <li>
+                        <a href="#">Rust</a>
+                    </li>
+                    <li>
+                        <a href="#">Python</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Framworks</a>
+                <ul>
+                    <li><a href="#">Sass</a></li>
+                    <li><a href="#">Angular</a></li>
+                    <li><a href="#">Vue</a></li>
+                    <li><a href="#">React</a></li>
+                </ul>
+            </li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Hacks</a></li>
             <li><a href="#">Blog</a></li>
@@ -44,6 +73,73 @@
         </ul>
     </nav>
     <!-- /.navbar -->
+    <!-- MainContent-->
+    <div class="content">
+        <!--Sidebar-->
+        <aside>
+            <div class="widget" >
+                <h3>Log in</h3>
+                <form>
+                    <label for="user">User</label>
+                    <input type="text" name="user">
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password">
+
+                    <input type="submit" value="Enter">
+
+                    <a href="#">Users Zone</a>
+                    <a href="#">Patreons Zone</a>
+                    <a href="#">Hackers Zone</a>
+                </form>                
+            </div>
+
+            <div class="widget" id="login">
+                <h3>Virtual Groups</h3>
+                <form>
+                    <label for="user">User name</label>
+                    <input type="text" name="user">
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password">
+
+                    <input type="submit" value="Enter">                    
+                </form>                
+            </div>
+
+            <div class="widget" id="login">
+                <h3>Hackatons</h3>
+                <form>
+                    <label for="user">User name</label>
+                    <input type="text" name="user">
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password">
+
+                    <input type="submit" value="Enter">                    
+                </form>                
+            </div>
+
+            <div class="widget" id="login">
+                <h3>Links of interest</h3>
+                <ul>
+                    <li><a href="#">How to hack the pentagon</a></li>
+                    <li><a href="#">What governments hide</a></li>
+                    <li><a href="#">Popular hacks</a></li>
+                    <li><a href="#">Blockchain is the future</a></li>
+                    <li><a href="#">Trade NFTs</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <aside id="tip">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis suscipit eum inventore deserunt quisquam quibusdam, odit cumque nemo. Unde, consequatur?</p>
+            <a href="#">Read more</a>
+        </aside>
+        <!--/.sidebar-->
+    </div>
+    <!--/.MainContet-->
 
 </body>
+
 </html>
