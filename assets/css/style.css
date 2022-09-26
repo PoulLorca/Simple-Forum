@@ -26,6 +26,11 @@
     src: url(/assets/css/fonts/Space_Mono/SpaceMono-BoldItalic.ttf);
 }
 
+@font-face {
+    font-family: "icons";
+    src: url(/assets/css/fonts/web-symbols/WebSymbols-Regular.otf);
+}
+
 /*General*/
 
 *{
@@ -220,8 +225,7 @@ nav > ul > li:hover > ul > li:hover a{
 }
 
 /*aside*/
-aside, #tip{
-    clear: both;
+aside, #tip{    
     width: 200px;
     float: left;
     margin: 30px;
@@ -232,6 +236,7 @@ aside, #tip{
 }
 
 #tip{
+    
     width: 180px;
     padding: 10px;
     font-size: 14px;
@@ -286,6 +291,11 @@ aside li{
     list-style: square;
 }
 
+.clearfix{
+    float: none;
+    clear: both;
+}
+
 /*Aside forms*/
 aside div label,
 aside div input[type="text"],
@@ -309,4 +319,64 @@ aside input,
 aside label{    
     margin: 0px auto;
     text-align: center;
+}
+
+/*Sections*/
+.sections{
+    float: right;
+    width: 75%;
+    font-family: Inconsolata;
+    margin: 20px;
+}
+
+.sections #title{
+    color: #038C4C;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-top: -20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #048ABF;    
+    filter: saturate(3);
+}
+
+.sections section{
+    margin-top: 40px;
+    background-color: #025939;
+    padding: 20px;
+    border: 1px solid #025959;
+    box-shadow: 0px 0px 4px;
+    font-size: 16px;    
+    overflow: hidden;
+}
+
+.sections article{
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+
+.sections .date{
+    color:#048ABF;
+    font-size: 14px;
+}
+
+.sticker  .stickerOne,
+.sticker .stickerTwo{
+    position:absolute;
+    margin-top: -38px;
+    z-index: 0;
+}
+
+.sticker .stickerTwo{
+    margin-left: 860px;
+}
+
+#icon{
+    font-family: icons;
+    color: #038C4C;
+    filter: saturate(3);
+    margin-right: 5px;
 }
