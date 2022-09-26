@@ -32,6 +32,9 @@
 }
 
 /*General*/
+html {
+    scroll-behavior: smooth;
+  }
 
 *{
     margin:0px;
@@ -124,13 +127,24 @@ header .logo img{
     text-align: center;
     margin: 0px auto;
     width: 140px;    
-    
+    animation-name: movement;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes movement {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);    
+    }    
 }
 
 header h1 {
     text-align: center;
-    font-size: 40px;    
-    
+    font-size: 40px;        
 }
 
 header h1 a{    
@@ -146,6 +160,33 @@ header h1 :hover{
     color:#038C4C;
     text-shadow: 0px 2px 4px, 0px 0px 8px;
 }
+
+header h3{
+    color: #038C4C;
+    font-family: monospace;
+    text-transform:capitalize;
+    overflow: hidden;
+    border-right: .15em solid #038C4C;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+        typing 3.5s steps(15, end),
+        blink-caret .5s step-end infinite;
+    padding-right: 5px;
+    float: right;
+    margin-right: 190px;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 24% }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #038C4C }
+  }
 
 /*Navbar*/
 nav{
@@ -391,6 +432,33 @@ aside label{
     font-family: Rajdhani;
     margin-right: 20px;
     background-color: #012840;
+}
+
+/*GoUp button*/
+.goUp{
+    text-align: center;
+    line-height: 50px;    
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    margin-left: 120px;
+    animation-name: shakeGoUp;
+    animation-duration: 1s;    
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+
+}
+
+@keyframes shakeGoUp {
+    0%{
+        transform: translateY(0px);        
+    }    
+    50%{
+        transform: translateY(20px);    
+    } 
+    100%{
+        transform: translateY(0px);        ;
+    }   
 }
 
 /*Footer*/
