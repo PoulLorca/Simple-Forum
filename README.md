@@ -9,8 +9,8 @@ A fake static web forum page using only CSS and HTML
 
 ### Status
 - [x] Animations
-- [ ] Make it adaptative
-
+- [x] Make it adaptative
+- [ ] Fix Chrome mobile navigation bar background-color bug
 
 
 ###### Author: [Poul Lorca](https://github.com/PoulLorca).
