@@ -2,27 +2,27 @@
 /*Fonts*/
 @font-face {
     font-family: "Inconsolata";
-    src: url(/assets/css/fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf)
+    src: url(../css/fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf)
 }
 
 @font-face {
     font-family: "Karla";
-    src: url(/assets/css/fonts/Karla/Karla-Italic-VariableFont_wght.ttf);
+    src: url(../css/fonts/Karla/Karla-Italic-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: "Rajdhani";
-    src: url(/assets/css/fonts/Rajdhani/Rajdhani-Regular.ttf);
+    src: url(../css/fonts/Rajdhani/Rajdhani-Regular.ttf);
 }
 
 @font-face {
     font-family: "spaceMono";
-    src: url(/assets/css/fonts/Space_Mono/SpaceMono-BoldItalic.ttf);
+    src: url(../css/fonts/Space_Mono/SpaceMono-BoldItalic.ttf);
 }
 
 @font-face {
     font-family: "icons";
-    src: url(/assets/css/fonts/web-symbols/WebSymbols-Regular.otf);
+    src: url(../css/fonts/web-symbols/WebSymbols-Regular.otf);
 }
 
 /*General*/
@@ -36,7 +36,7 @@ html {
 }
 
 body{        
-    background-image: url(/assets/img/pattern.png);
+    background-image: url(../img/pattern.png);
 }
 
 a{
