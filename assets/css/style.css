@@ -470,3 +470,61 @@ footer{
     font-size: 14px;
     box-shadow: 0px 0px 2px;    
 }
+
+@media (max-width : 1252px) {
+
+    header {
+        min-width: 0;        
+        text-align: center;        
+    }
+
+    header .logo{
+        width: 100%;
+    }
+
+    header h3{
+        margin-right: 25%;
+        animation: typing 3s steps(7, end), blink-caret .5s step-end infinite;
+    }
+    
+    nav{
+        height: fit-content;            
+        float: inline-end;
+    }
+
+    nav ul{
+        width: 100%;
+    }
+
+    nav ul li{
+        width:100%;
+        text-align: center;                        
+        border: 1px solid #025939 ;   
+        border-bottom: 1px solid #048ABF;          
+        font-weight:bolder;
+        filter: saturate(3);
+    }    
+    
+
+    nav > ul > li a:first-child{
+        border-left: 1px solid #025939; ;
+    }
+
+    .content{
+        width: 100%;
+        text-align: center;        
+    }
+
+    aside, #tip{
+        margin-left: 23%;
+    }
+
+    .sections{
+        width: 100%;        
+        margin: 0;
+    }
+        
+    .sticker{
+        display: none;
+    }
+}
